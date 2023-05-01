@@ -9,6 +9,7 @@ import { Routes, Route } from "react-router-dom";
 import Contact from './pages/Contact';
 import NewPost from './pages/NewPost';
 import Login from './pages/Login';
+import PostPage from './pages/PostPage';
 
 
 
@@ -28,6 +29,8 @@ function App() {
         <Route path="about" element={<AboutMe />} />
         <Route path="contact" element={<Contact />} />
         <Route path="new_post" element={<NewPost/>} />
+        <Route path="post_page" element={<PostPage/>} />
+
         <Route path="login" element={<Login/>} />
       </Route>
     </Routes>

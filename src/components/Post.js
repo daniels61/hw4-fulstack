@@ -1,4 +1,5 @@
 import React from 'react';
+import NewPost from '../pages/NewPost';
 
         const Post = (props) => {
             return ( <div className="frame" id="contact">
